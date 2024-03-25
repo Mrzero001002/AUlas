@@ -1,0 +1,122 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header{
+    background-color: black;
+    padding: 16px 0;
+    font-style: arial;
+    color: white;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.article article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.article article{
+    margin-bottom: 12px;
+}
+
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.article article{
+    margin-bottom: 12px;
+}
+
+.article article h3{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.article article p,
+.article article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3 {
+    font-size: 26px;
+}
+
+section h2{
+    font-size: 42px;
+}
+
+#LOL {
+    background-color: rgba(81, 95, 219, 0.2);
+}
+
+#CS{
+    background-color: rgba(226, 152, 15, 0.2);
+}
+
+#LOL .article article a {
+    background-color: rgba(81, 95, 219, 0.8);
+}
+
+#CS .article article a {
+    background-color: rgba(226, 152, 15, 0.8);
+    color: #000;
+}
