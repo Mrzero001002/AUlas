@@ -112,6 +112,14 @@ section h2{
     background-color: rgba(226, 152, 15, 0.2);
 }
 
+#BG3 {
+    background-color: rgba(81, 219, 208, 0.2);
+}
+
+#RED {
+    background-color: rgb(161, 32, 32, 0.2);
+}
+
 #LOL .article article a {
     background-color: rgba(81, 95, 219, 0.8);
 }
@@ -119,4 +127,13 @@ section h2{
 #CS .article article a {
     background-color: rgba(226, 152, 15, 0.8);
     color: #000;
+}
+
+#BG3 .article article a {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+#RED .article article a {
+    background-color: rgba(12, 12, 12, 0.8);
 }
